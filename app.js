@@ -10,7 +10,7 @@ app.set('views','./views');
 app.use(morgan('dev'));
 
 app.get('/', function (req, res) {
-  res.send('hello, world!');
+  res.send('whoop!');
 });
 
 app.get('/tweets', function (req, res) {
